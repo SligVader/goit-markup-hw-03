@@ -102,7 +102,9 @@ img {
 .footer-one:hover,
 .footer-one:focus,
 .footer-two:hover,
-.footer-two:focus {
+.footer-two:focus,
+.footer-three:hover,
+.tooter-three:focus {
   color: var(--brand-color);
 }
 
@@ -145,6 +147,7 @@ img {
   letter-spacing: 0.06em;
   color: var(--background-color-two);
   background-color: var(--brand-color);
+  border-color: transparent;
   cursor: pointer;
 }
 
