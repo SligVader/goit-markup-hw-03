@@ -270,6 +270,7 @@ li > .current {
 }
 .team-list {
   background-color: var(--background-color-two);
+  padding-bottom: 30px;
 }
 
 .team-section {
@@ -375,7 +376,8 @@ li > .current {
 
 .projects-list {
 background: #FFFFFF;
-out: 1px solid #EEEEEE;
+outline: 1px solid #EEEEEE;
+padding-bottom: 20px;
 }
 
 
