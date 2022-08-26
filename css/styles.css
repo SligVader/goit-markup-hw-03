@@ -7,6 +7,8 @@
   --background-color-two: #ffffff;
   --background-color-three: #f5f4fa;
   --hover-color-one: #188ce8;
+  --items: 3;
+  --indent: 30px;
 }
 
 body {
@@ -369,15 +371,25 @@ li > .current {
 .projects {
   display: flex;
   flex-wrap: wrap;
-  gap: 27px;
-  justify-content: center;
+  gap: 30px;
   padding: 0;
+  justify-content: center;
 }
+.project-name {
+display: inline-block;
+margin-bottom: 4px;
+}
+.project-name .product {
+
+}
+
 
 .projects-list {
 background: #FFFFFF;
 outline: 1px solid #EEEEEE;
 padding-bottom: 20px;
+/*flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));*/
+/*flex-basis: calc((100% - 30px * 2) / 3);*/
 }
 
 
@@ -392,9 +404,7 @@ padding-bottom: 20px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--font-color-one);
-  padding: 20px auto 4px 24px;
-
-
+  margin-left: 24px;
 }
 
 .product {
@@ -402,4 +412,5 @@ padding-bottom: 20px;
   line-height: 1.8;
   color: var(--font-color-two);
   padding: 4px auto 20px 24px;
+  margin-left: 24px;
 }
